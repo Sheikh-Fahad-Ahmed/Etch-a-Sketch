@@ -51,9 +51,10 @@ h1 {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+    gap: 2rem;
 }
 
-.pick {
+.pick, .reset {
     padding: 20px;
     color: #FBE094;
     background-color: #FA2256;
@@ -62,3 +63,4 @@ h1 {
     border-radius: 15px;
     font-family: ubuntu;
 }
+
