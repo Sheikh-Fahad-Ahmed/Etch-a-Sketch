@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+
 body {
     margin: 0;
     box-sizing: border-box;
     background-color: #0F0D0D;
 }
 
+h1 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
+}
+
 .header {
     color: #FA2256;
     text-align: center;
-
+    font-family: kalam;
+    font-size: 25px;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -38,4 +51,14 @@ body {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.pick {
+    padding: 20px;
+    color: #FBE094;
+    background-color: #FA2256;
+    border-color: #FBE094;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: ubuntu;
 }
