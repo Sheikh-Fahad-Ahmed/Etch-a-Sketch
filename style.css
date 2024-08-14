@@ -15,6 +15,8 @@ body {
     justify-content: center;
     align-content: center;
     margin-top: 40px;
+    flex-basis: 100%;
+    flex: 1 1 1;
 }
 
 .row {
@@ -24,15 +26,10 @@ body {
     align-content: center;
 }
 
-.square {
-    border: 2px solid #FBE094;
-    width: 10px;
-    height: 10px;
-    padding: 20px;
-}
+
 
 .hover {
-    background-color:#FA2256;
+    background-color: #FA2256;
 }
 
 .button {
@@ -42,4 +39,3 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-

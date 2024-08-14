@@ -22,9 +22,12 @@ for (let i = 0; i < tilesPerSide; i++) {
     for (let j = 0; j < tilesPerSide; j++) {
         let square = document.createElement("div");
         square.className = `square square${j + 1}`;
+        square.setAttribute("style", `border: 2px solid #FBE094; width:${700 / tilesPerSide}px; height:${700 / tilesPerSide}px; padding: 0;`)
         row.appendChild(square);
     }
 }
+
+
 
 let boxes = document.querySelectorAll(".square");
 
@@ -43,9 +46,17 @@ function createGrid(tilesPerSide) {
         for (let j = 0; j < tilesPerSide; j++) {
             var square = document.createElement("div");
             square.className = `square square${j + 1}`;
+            square.setAttribute("style", `border: 2px solid #FBE094; width:${700 / tilesPerSide}px; height:${700 / tilesPerSide}px; padding: 20px; padding:0;`)
             row.appendChild(square);
         }
     }
+    let boxes = document.querySelectorAll(".square");
+
+    [...boxes].forEach(box => {
+        box.addEventListener("mouseover", () => {
+            box.classList.add("hover");
+        });
+    });
 }
 
 function deleteGrid() {
@@ -54,3 +65,4 @@ function deleteGrid() {
         row.remove();
     });
 }
+
