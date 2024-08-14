@@ -5,8 +5,8 @@ body {
 }
 
 .header {
-    text-align: center;
     color: #FA2256;
+    text-align: center;
 
 }
 
@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .row {
@@ -34,3 +34,12 @@ body {
 .hover {
     background-color:#FA2256;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
