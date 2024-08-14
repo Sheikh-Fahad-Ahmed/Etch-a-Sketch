@@ -1,6 +1,13 @@
 body {
     margin: 0;
     box-sizing: border-box;
+    background-color: #0F0D0D;
+}
+
+.header {
+    text-align: center;
+    color: #FA2256;
+
 }
 
 .container {
@@ -18,12 +25,12 @@ body {
 }
 
 .square {
-    border: 2px solid red;
+    border: 2px solid #FBE094;
     width: 10px;
     height: 10px;
     padding: 20px;
 }
 
 .hover {
-    background-color: blue;
+    background-color:#FA2256;
 }
